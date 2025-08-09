@@ -11,7 +11,7 @@ namespace TicketPriceCalculator
             while (true)
             {
                 Console.Write("Enter age: ");
-                string? input = Console.ReadLine();
+                string input = Console.ReadLine();
                 if (int.TryParse(input, out age) && age >= 0)
                     break;
                 Console.WriteLine("Invalid input. Please enter a non-negative integer for age.");
