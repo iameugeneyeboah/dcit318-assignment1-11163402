@@ -11,7 +11,7 @@ namespace GradeCalculator
             while (true)
             {
                 Console.Write("Enter numeric grade (0-100): ");
-                string? input = Console.ReadLine();
+                string input = Console.ReadLine();
                 if (double.TryParse(input, out grade) && grade >= 0 && grade <= 100)
                     break;
                 Console.WriteLine("Invalid input. Please enter a number between 0 and 100.");
