@@ -31,7 +31,7 @@ namespace TriangleTypeIdentifier
             while (true)
             {
                 Console.Write($"Enter {which} side length (positive number): ");
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
                 if (double.TryParse(input, out val) && val > 0)
                     return val;
                 Console.WriteLine("Invalid input. Please enter a positive number.");
