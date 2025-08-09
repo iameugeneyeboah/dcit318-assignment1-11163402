@@ -1,0 +1,5 @@
+Name: Eugene Amaning Yeboah
+Student ID: 11163402
+Course: DCIT318 - Programming II
+
+Submitted files contain 3 console apps as required.
